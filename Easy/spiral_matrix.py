@@ -3,12 +3,12 @@ class Solution:
         row = len(matrix)
         col = len(matrix[0])
 
-        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]  # right, down, left, up
-
         visited = [[False] * col for _ in range(row)]
 
-        r, c = 0, 0  # initialise top left
-        d = 0  # first direction is towards the right
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]  # right, down, left, up
+
+        r, c = 0, 0  # initialise top left coordinate
+        d = 0
 
         res = []
 
@@ -17,16 +17,15 @@ class Solution:
             visited[r][c] = True
 
             dr, dc = directions[d]
-            nr, nc = r + dr, c + dc  # next cell
+            nr, nc = r + dr, c + dc
 
             if 0 <= nr < row and 0 <= nc < col and visited[nr][nc] is False:
-                r, c = nr, nc  # continue to move right
-            else:  # change direction
+                r, c = nr, nc
+            else:
                 d = (d + 1) % 4
                 dr, dc = directions[d]
                 nr, nc = r + dr, c + dc
                 r, c = nr, nc
-
         return res
 
 
