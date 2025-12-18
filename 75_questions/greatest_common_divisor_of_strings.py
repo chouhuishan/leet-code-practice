@@ -9,6 +9,12 @@ class Solution:
         return str1[:gcd_length]
 
 
+# m = len(str1)
+# 2 = len(str2)
+
+# Time complexity : O(m + n)
+# Space complexity : O(m + n)
+
 str1 = "ABCABC"
 str2 = "ABC"
 # str1 = "ABABAB"
