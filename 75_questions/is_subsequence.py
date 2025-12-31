@@ -15,14 +15,15 @@ class Solution:
         while i < s1 and j < t1:
             if s[i] == t[j]:
                 i += 1
-                j += 1
-            else:
-                j += 1
+            #     j += 1
+            # else:
+            #     j += 1
+            j += 1
         return True if i == s1 else False
 
 
-# s = "abc"
-# t = "ahbgdc"
-s = "axc"
+s = "abc"
 t = "ahbgdc"
+# s = "axc"
+# t = "ahbgdc"
 print(Solution().isSubsequence(s, t))
