@@ -8,24 +8,26 @@
 
 class Solution:
     def reverseWords(self, s: str) -> str:
-        # s = s.split()
+        s = s.split()
 
-        # s.reverse()
+        s.reverse()
 
-        # s = " ".join(s)
+        s = " ".join(s)
 
-        # return s
+        return s
 
-        s = list(s)
+        # s = list(s)
 
-        i = 0
-        output = []
+        # i = 0
+        # output = []
 
-        while i < len(s):
-            if s[i] == " ":
-                i += 1
-            
-            
+        # while i < len(s):
+        #     if s[i] == " ":
+        #         i += 1
+
+
+# Time complexity = O(n)
+# Space complexity = O(n)
 
 
 # s = "the sky is blue"

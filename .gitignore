@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+75 Questions.xlsx
 
 # Virtual environments
 .venv

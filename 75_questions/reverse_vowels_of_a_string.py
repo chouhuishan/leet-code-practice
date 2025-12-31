@@ -20,6 +20,10 @@ class Solution:
         return "".join(s)
 
 
+# Time complexity = O(n)
+# Space complexity = O(n)
+
+
 # s = "IceCreAm"
 s = "leetcode"
 print(Solution().reverseVowels(s))

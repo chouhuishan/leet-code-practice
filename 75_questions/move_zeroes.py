@@ -30,6 +30,10 @@ class Solution:
         return nums
 
 
+# Time complexity = O(n**2)
+# Space complexity = O(1)
+
+
 nums = [0, 1, 0, 3, 12]
 # nums = [0]
 print(Solution().moveZeroes(nums))
