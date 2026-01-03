@@ -19,7 +19,7 @@ class Solution:
 
 
 # Time complexity = O(n)
-# Space complexity = O(1)
+# Space complexity = O(n)
 
 # gain = [-5, 1, 5, 0, -7]
 gain = [-4, -3, -2, -1, 4, 3, 2]

@@ -21,6 +21,8 @@ class Solution:
             j += 1
         return True if i == s1 else False
 
+# Time complexity = O(n)
+# Space complexity = O(n)
 
 s = "abc"
 t = "ahbgdc"

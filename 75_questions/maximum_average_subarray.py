@@ -13,6 +13,8 @@ class Solution:
             max_sum = max(max_sum, next_sum)
         return max_sum / k
 
+# Time complexity : O(n)
+# Space complexity : O(1)
 
 nums = [1, 12, -5, -6, 50, 3]
 k = 4
