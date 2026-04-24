@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 # Given an array of integers arr, return true if the number of occurrences
 # of each value in the array is unique or false otherwise.
 
->>>>>>> 7859a2f (lc leaf similar trees solve)
 from collections import Counter
 
 
